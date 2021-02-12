@@ -1,0 +1,65 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>CAT TICS</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+
+
+    <script src="https://kit.fontawesome.com/e530d88f76.js" crossorigin="anonymous"></script>
+</head>
+
+<body style="background-color: rgb(90, 143, 143);">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"> <i class="fas fa-cat"></i> Navbar
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" -label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#">Pricing</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <center>
+        <br>
+        <i class="fas fa-cat"></i>
+        <h1> Bienvenido </h1>
+        <h4>Que comience el juego</h4>
+        <h5>Turno 1 ingresa el num 1</h5>
+        <form action="../modelo/gato.php" METHOD="GET">
+            <input type="text" name="jd1" size=1 maxlength=1>
+            <input type="text" name="jd2" size=1 maxlength=1>
+            <input type="text" name="jd3" size=1 maxlength=1>
+            <br>
+            <input type="text" name="jd4" size=1 maxlength=1>
+            <input type="text" name="jd5" size=1 maxlength=1>
+            <input type="text" name="jd6" size=1 maxlength=1>
+            <br>
+            <input type="text" name="jd7" size=1 maxlength=1>
+            <input type="text" name="jd8" size=1 maxlength=1>
+            <input type="text" name="jd9" size=1 maxlength=1>
+            <br>
+            <input type="hidden" name="jugador" value="1">
+            <input type="hidden" name="contador" value="0">
+            <input type="hidden" name="jugada" value="1">
+            <br>
+            <input color="primary" type="submit" value="Enviar Jugada">
+        </form>
+    </center>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js " integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI " crossorigin="anonymous "></script>
+</body>
+
+</html>
